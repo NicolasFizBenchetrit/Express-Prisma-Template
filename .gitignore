@@ -1,0 +1,20 @@
+# Build
+dist
+
+# Node dependencies
+node_modules
+pnpm-lock.yaml
+package-lock.json
+
+#vs code
+.vscode
+
+#public
+/public/**
+!/public/.gitkeep
+
+#env
+.env
+
+#Prisma
+prisma/**
